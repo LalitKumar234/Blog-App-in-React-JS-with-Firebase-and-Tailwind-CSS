@@ -1,0 +1,113 @@
+.loginCard{
+  max-width: 25rem;
+  width: 100%;
+  height: 30rem;
+  
+}
+.shadow{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.google-btn {
+  width: 184px;
+  height: 42px;
+  background-color: rgb(110, 110, 255);
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, .25);
+  cursor: pointer;
+}
+
+.google-icon-wrapper {
+  position: absolute;
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.google-icon {
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 11px;
+  width: 18px;
+  height: 18px;
+}
+
+.btn-text {
+  float: right;
+  margin: 11px 11px 0 0;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-family: "Roboto";
+}
+.input:focus{
+  border: none;
+}
+.quill{
+  width: 100%;
+}
+.ql-editor{
+  min-height: 300px;
+}
+.post{
+  width: 25rem;
+  border: 1px solid red;
+  height: 15rem;
+}
+.imageUploadContainer{
+  border: 1px solid rgb(83, 115, 254);
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px 0;
+  margin-top: 1rem;
+  transition: 0.3s ease-in-out;
+}
+#inputTag{
+  display: none;
+}
+.upload-btn{
+  cursor: pointer;
+  color: white;
+  background-color: rgb(83, 115, 254);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11rem;
+  height: 3rem;
+  border-radius: 50px;
+}
+.thumbnail-image{
+  width: 25rem;
+  height: 18rem;
+  object-fit: cover;
+}
+.postImage{
+  width: 100vw;
+  height: 30rem;
+  object-fit: cover;
+}
+.author{
+  display: flex;
+  align-items: center;
+}
+.profile-image > img{
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.loader-component{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.title{
+  min-height: 5rem;
+}

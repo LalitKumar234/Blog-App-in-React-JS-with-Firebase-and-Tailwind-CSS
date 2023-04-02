@@ -1,0 +1,27 @@
+/* .navBar{
+    background-color: #6565ca;
+
+}
+.navBarInner{
+    border: 2px solid rgb(0, 0, 0);
+} */
+.navBar{
+    background-color: white;
+    top: 0;
+}
+.profile-image {
+    position: relative;
+}
+.profile-image > img{
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profileDropdown{
+    top: 3rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 10rem;
+    right: 0;
+}
